@@ -1,0 +1,7 @@
+{
+  "name": "Arch Codespace",
+  "build": { "dockerfile": "Dockerfile" },
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": true,
+  "postCreateCommand": "sudo pacman -Syu --noconfirm"
+}
